@@ -1,0 +1,14 @@
+.button{
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2vh;
+    border-radius: 0.5em;
+    width: 20vh;
+    text-align: center;
+}
+
+.button:hover{
+background-color: rgb(23, 132, 126);
+}

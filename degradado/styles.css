@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 5vh;
+    height: 30vw;
+    width: 30vw;
+    background-color: lightblue;
+}
+
+.elegidos{
+    display: flex;
+    margin-top: 2vh;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+
+.elegido{
+    height: 10vh;
+    width: 10vh;
+    border: 1px solid black;  
+    margin-bottom: 5vh; 
+}
+
+#elegidosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2vh;
+    border-radius: 0.5em;
+}
+
+.button:hover{
+background-color: rgb(23, 132, 126);
+}
+
+#inputColor{
+    width: 5em;
+    height: 4em;
+    border: none;
+    background-color: transparent;
+}
